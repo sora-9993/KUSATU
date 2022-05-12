@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Serif JP SemiBold;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    border: 1px solid #aaa;
+    padding: 60px 40px;
+    background-color: white;
+    width: 1000px;
+    background-image:url(../お問い合わせフォーム/photo_06.jpg);
+    background-size: cover;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 15px;
+    color:white;
+}
+
+.form-p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: serif;
+    border-bottom:1px solid #aaa;
+    padding-bottom: 10px;
+}
+
+form {
+    width: 1000px;
+    margin: 0auto;
+}
+
+.item {
+    overflow: hidden;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.label {
+    margin-left: 150px;
+    width: 100px;
+    border-left: 3px solid blue;
+    padding-left: 10px;
+    float: left;
+}
+
+.inputs {
+    width: 500px;
+}
+
+input[type="text"]
+input[type="email"] {
+    border: 1px sollid #aaa;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+textarea {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    height: 160px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color:darkblue;
+    border: none;
+    padding: 10px 20px;
+    color:aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
