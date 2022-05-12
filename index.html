@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class ="contact-form">
+
+      <h4>CONTACT FORM</h4>
+      
+      <p class="form-p">お問い合わせフォーム</p>
+
+      <form  action="https://api.staticforms.xyz/submit">
+        <input type="hidden" name="accessKey" value="408d56af-1b25-42a4-b896-d7447a0ff70a">
+        <!-- Required -->
+
+        <div class="item">
+         <label class="label">お名前</label>
+         <input type="text" class="inputs" name="name">
+        </div>
+
+        <div class="item">
+          <label class="label">フリガナ</label>
+          <input type="text" class="inputs" name="name">
+        </div>
+
+        <div class="item">
+          <label class="label">メールアドレス</label>
+          <input type="email" class="inputs" name="name" required>
+        </div>
+
+        
+         <div class="item">
+          <label class="label">ご質問</label>
+          <textarea class="inputs" placeholder="ご質問はこちら"></textarea>
+         </div>
+
+         <div class="buttons">
+           <input type="submit" value="入力内容を確認する">
+         </div>
+
+
+      </form>
+    </div>
+  </body>
+</html>
